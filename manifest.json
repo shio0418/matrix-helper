@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Matrix Helper",
+  "version": "1.0",
+
+  "default_locale": "en",
+  "description": "Matrix Helper for Tokyo Tech Portal",
+  "content_scripts": [
+    {
+      "matches": ["https://portal.nap.gsic.titech.ac.jp/*"],
+      "js": ["./content.js"]
+    }
+  ]
+}
